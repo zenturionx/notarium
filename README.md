@@ -1,2 +1,0 @@
-# notarium
-The Notarium System
