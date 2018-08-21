@@ -1,0 +1,269 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #888888;
+}
+h3 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    color: #222222;
+    font-size: 16px;
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+}
+
+h6{
+	font-size:16px;
+	color:#888888;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	text-align:center;
+	margin:0 0 60px 0;
+}
+
+.title-info {
+    font-family: 'Dosis';
+    font-weight: 600;
+    font-size: 18px;
+    color: #111111;
+    margin: 35px 0 18px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #222222;
+	font-family: 'Dosis';
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color:#49b5e7;
+}
+
+section .section-title {
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Dosis';
+    font-weight: 700;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.service_icon {
+	border: 2px solid #7a6d5b;
+	border-radius: 50%;
+	width: 90px;
+	height: 90px;
+	margin: 0px auto 25px;
+}
+
+.service_icon span {
+	background: #7a6d5b;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.service_icon i {
+	color: #fff;
+	margin-top: 0;
+	position: relative;
+	top: 4px;
+	z-index: 20;
+	text-align: center;
+}
+
+.c-logo-part{
+	background: url(../img/page/poligan_bg.jpg) no-repeat left top;
+	padding: 20px 0px 20px 0px;
+    filter: alpha(opacity=60);
+}
+@media (max-width: 768px) {
+  .c-logo-part{
+	background:url(../img/page/poligan_bg.jpg) bottom;
+    }
+
+  .c-logo-part img{
+  	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%);
+	margin-bottom: 10px;
+  }
+}
+
+.c-logo-part ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+	text-align:center;
+}
+.c-logo-part ul li{
+	display:inline;
+	margin:0 25px;
+}
+.c-logo-part ul a{
+	display:inline-block;
+	
+}
+.c-logo-part img{
+	border: 2px solid #7a6d5b;
+}
+
+.work_outer {
+    background: #f9f9f9;
+    padding: 70px 0px;
+    position: relative;
+}
+
+.top_cont_latest img{
+margin: 0;
+   position: absolute;               /* 2 */
+   top: 50%;                         /* 3 */
+   transform: translate(20%, -50%)
+}
+@media (max-width: 768px) {
+  .top_cont_latest img{
+  	top:50px;
+  	right:50px;
+  	margin:auto;
+  	width: 100%;
+    }  
+}
+.work_pic{
+	position:absolute;
+	right:0;
+	top:25%;
+	width:50%;
+}
+
+.work_section { 
+	padding:110px 0 20px;
+}
+
+.service-list{
+	padding:0 0 0 0;
+	font-size:14px;
+	margin-bottom:40px;
+}
+.service-list-col1{
+	float:left;
+	width:60px;
+	text-align:center;
+}
+
+.service-list-col2{
+	overflow:hidden;	
+}
+
+.figure{ margin:0px;}
+
+.main-section.team{
+	padding:85px 0;
+}
+.main-section.team h6{
+	margin-bottom:40px;
+}
+.col-centered{
+  float: none !important;
+  margin: 0 auto !important;
+}
+
+.profile-card-3 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  height:550px;
+  border:none;
+}
+.profile-card-3 .background-block {
+    float: left;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.profile-card-3 .background-block .background {
+  width:100%;
+  vertical-align: top;
+  opacity: 0.9;
+  -webkit-filter: blur(0.5px);
+  filter: blur(0.5px);
+   -webkit-transform: scale(1.8);
+  transform: scale(2.8);
+}
+.profile-card-3 .card-content {
+  width: 100%;
+  padding: 15px 25px;
+  color:#232323;
+  float:left;
+  background:#efefef;
+  height:50%;
+  border-radius:0 0 10px 10px;
+  position: relative;
+  z-index: 9999;
+}
+.profile-card-3 .card-content::before {
+    content: '';
+    background: #efefef;
+    width: 120%;
+    height: 100%;
+    left: 11px;
+    bottom: 51px;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-13deg);
+}
+.profile-card-3 .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 65%;
+  left: 50%;
+  max-width: 150px;
+  opacity: 1;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 1);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+  z-index:99999;
+}
+.profile-card-3 h2 {
+  margin: 0 0 5px;
+  font-weight: 600;
+  font-size:25px;
+}
+.profile-card-3 h2 small {
+  display: block;
+  font-size: 15px;
+  margin-top:10px;
+}
+.profile-card-3 .icon-block{
+    float:left;
+    width:100%;
+}
+.profile-card-3 .icon-block a{
+    text-decoration:none;
+}
+.profile-card-3 i {
+  display: inline-block;
+    font-size: 16px;
+    color: #232323;
+    text-align: center;
+    border: 1px solid #232323;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin:0 5px;
+}
+.profile-card-3 i:hover {
+  background-color:#232323;
+  color:#fff;
+  text-decoration:none;
+}
