@@ -430,20 +430,17 @@
 <!-- servicios adicionales -->
 <section id="servicios_adicionales" class="section-gap interlude_background">
 	<div class="container">
-		<h2 class="section-title h1">Servicios Adicionales (cambiar a dinámico)</h2>
+		<h2 class="section-title h1">Servicios Adicionales</h2>
 		<div class="row align-items-center">
 			<div class="col-lg-6">
 				<div class="service-list">
 					<div class="service-list-col1"> <i class="fa fa-pencil fa-2x"></i> </div>
 					<div class="service-list-col2">
 
-						<h3>Notaria de turno en el mes de Agosto</h3>
+							<h3>Notaria de turno en el mes de {{$mesActual}} </h3>
 
-						<p><B>Notario:</B>   Sergio Hernández Reeve <br>
-
-                        <B>Dirección:</B>  Lautaro N° 371, Los Angeles<br>
-
-                        <B>Telefono:</B>  43-231 1318</p>
+							
+							<?php echo $NotarioTurno ?>
 
 					</div>
 				</div>
@@ -451,13 +448,9 @@
 					<div class="service-list-col1"> <i class="fa fa-newspaper-o fa-2x"></i> </div>
 					<div class="service-list-col2">
 
-						<h3>PRIVILEGIO DE POBREZA MES DE Agosto</h3>
+						<h3>PRIVILEGIO DE POBREZA MES DE {{$mesActual}}</h3>
 
-						<p><B>Notario:</B>  Luis Eduardo Solar Bach <br>
-
-                        <B>Dirección:</B>  Lautaro Nº 325 Local 4 y 5, Los Angeles <br>
-
-                        <B>Telefono:</B>  43-252 4149</p>
+						<?php echo $notariaPrivilegio; ?>
 
 					</div>
 				</div>				
