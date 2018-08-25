@@ -143,7 +143,7 @@
 	<div class="container">
 		<div class="row fullscreen d-flex align-items-center justify-content-center" style="height: 600px;">
 			<div class="banner-content col-lg-12 col-md-12">
-				<h1>
+				<h1 class="section-title h1 text-white">
 					Nuestro Equipo de Trabajo			
 				</h1>
 				<p class="text-white">
@@ -266,8 +266,28 @@
 
 <!-- Instrumentos privados -->
 <section id="instrumentos_privados" class="section-gap interlude_background">
+<div class="container">
+	<h2 class="section-title h1">Instrumentos Privados</h2>
+<div class="row py-4">
+			<div class="col-md-4 mx-auto">
+				<div class="card profile-card-3">
+					<div class="background-block">
+						<img src="{{ asset('img/page/section-bg1.jpg') }}" alt="profile-sample1" class="background"/>
+					</div>
+					<div class="profile-thumb-block">
+						<img src="{{ asset('img/page/Marcela.jpg') }}" alt="profile-image" class="profile"/>
+					</div>
+					<div class="card-content">
+						<h2>Marcela <br> Fritz</h2>
+						<p class="card-text text-center">Informaciones - Coordinación, Atención Abogados y Público</p>
+						<p class="card-text text-center">Mfritz.cuartanotaria@gmail.com</p>
+						<!--<div class="icon-block text-center"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"> <i class="fa fa-twitter"></i></a><a href="#"> <i class="fa fa-google-plus"></i></a></div>-->						
+					</div>
+				</div>
+				</div>
+</div>
+</div>
 	<div class="container">
-		<h2 class="section-title h1">Instrumentos Privados</h2>
 		<div class="row py-4">
 			<div class="col-md-4 mx-auto">
 				<div class="card profile-card-3">
@@ -345,6 +365,22 @@
 						<!--<div class="icon-block text-center"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"> <i class="fa fa-twitter"></i></a><a href="#"> <i class="fa fa-google-plus"></i></a></div>-->						
 					</div>
 				</div>
+			</div>	
+			<div class="col-md-4 mx-auto">
+				<div class="card profile-card-3">
+					<div class="background-block">
+						<img src="{{ asset('img/page/section-bg1.jpg') }}" alt="profile-sample1" class="background"/>
+					</div>
+					<div class="profile-thumb-block">
+						<img src="{{ asset('img/page/Camila.jpg') }}" alt="profile-image" class="profile"/>
+					</div>
+					<div class="card-content">
+						<h2>Camila <br> Cruces</h2>
+						<p class="card-text text-center">Instrumentos Públicos</p>
+						<p class="card-text text-center">Camila.cuartanotaria@gmail.com</p>
+						<!--<div class="icon-block text-center"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"> <i class="fa fa-twitter"></i></a><a href="#"> <i class="fa fa-google-plus"></i></a></div>-->						
+					</div>
+				</div>
 			</div>				
 		</div>
 	</div>
@@ -387,23 +423,7 @@
 					</div>
 				</div>
 			</div>	
-			<div class="col-md-4 mx-auto">
-				<div class="card profile-card-3">
-					<div class="background-block">
-						<img src="{{ asset('img/page/section-bg1.jpg') }}" alt="profile-sample1" class="background"/>
-					</div>
-					<div class="profile-thumb-block">
-						<img src="{{ asset('img/page/Camila.jpg') }}" alt="profile-image" class="profile"/>
-					</div>
-					<div class="card-content">
-						<h2>Camila <br> Cruces</h2>
-						<p class="card-text text-center">Instrumentos Públicos</p>
-						<p class="card-text text-center">Camila.cuartanotaria@gmail.com</p>
-						<!--<div class="icon-block text-center"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"> <i class="fa fa-twitter"></i></a><a href="#"> <i class="fa fa-google-plus"></i></a></div>-->						
-					</div>
-				</div>
-			</div>								
-		</div>
+			</div>
 	</div>
 </section>
 
